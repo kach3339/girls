@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fffafc;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.head-logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+.survey {
+  background-color: #ffe4e1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.survey h2 {
+  color: #ff69b4;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.survey label {
+  font-size: 1.2em;
+}
+
+.survey input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ffb6c1;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.blog {
+  margin-top: 30px;
+}
+
+.blog-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #ffb6c1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer .social-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}

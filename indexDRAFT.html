@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Girl Site</title>
+  <link rel="stylesheet" href="./styles/style.css"/>
+</head>
+<body>
+<header>
+  <div class="logo head_logo">ДЕВЧЯЧИЙ  &#10084 сайт</div>
+  <div class="logo">ДЕВЧЯЧИЙ  &#10084 сайт</div>
+  <nav>
+    <ul>
+      <li><a href="#">Домой</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Новости</a></li>
+      <li><a href="#">Мода</a></li>
+      <li><a href="#">Красота</a></li>
+      <li><a href="#">Опрос для друзей</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Выбери свой стиль!</h1>
+    <p>Узнай последние тренды в моде и красоте</p>
+  </div>
+</section>
+
+<main>
+  <section class="survey">
+    <h2>Опрос для друзей</h2>
+    <form id="surveyForm">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="hobby">Любимое занятие:</label>
+      <input type="text" id="hobby" name="hobby" required>
+
+      <label for="place">Место, где мечтаешь побывать:</label>
+      <input type="text" id="place" name="place" required>
+
+      <label for="color">Твой любимый цвет:</label>
+      <input type="text" id="color" name="color" required>
+
+      <label for="description">Три слова, которые описывают тебя:</label>
+      <input type="text" id="description" name="description" required>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <section class="blog">
+    <h2>Последние статьи</h2>
+    <div class="blog-cards">
+      <div class="card">
+        <img src="fashion.jpg" alt="Fashion">
+        <h3>Как носить пастельные цвета этой осенью</h3>
+      </div>
+      <div class="card">
+        <img src="makeup.jpg" alt="Makeup">
+        <h3>10 лучших продуктов для макияжа</h3>
+      </div>
+      <div class="card">
+        <img src="influencer.jpg" alt="Influencer">
+        <h3>Гид по стилю от инфлюенсеров</h3>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <p>© 2024 My Girl Site</p>
+    <ul class="social-links">
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">TikTok</a></li>
+      <li><a href="#">Pinterest</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

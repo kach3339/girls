@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fffafc;
+  color: #333;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  position: sticky;
+  top: -150px;
+}
+
+.head-logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Стили для бокового меню */
+.sidenav {
+  height: 100%; /* Полная высота */
+  width: 250px; /* Начальная ширина равна 0 */
+  position: fixed; /* Фиксированное положение */
+  z-index: 1; /* Поверх других элементов */
+  top: 0;
+  left: -250px;
+  background-color: #edf3e8; /* Цвет фона */
+  overflow-x: hidden; /* Скрытие горизонтальной прокрутки */
+  padding-top: 60px; /* Отступ сверху */
+  transition: 0.5s; /* Плавная анимация */
+}
+
+/* Стили для ссылок внутри бокового меню */
+.links {
+  padding: 10px 8px 50px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #a471dd;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Кнопка закрытия (x) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #a471dd;
+  cursor: pointer;
+}
+
+
+
+.openbtn {
+  font-size: 30px;
+  width: 57px;
+  cursor: pointer;
+  background-color: #a471dd;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #f1f1f1;
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  overflow-x: auto;
+}
